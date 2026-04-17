@@ -57,8 +57,20 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6ZM2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12ZM3 17C2.44772 17 2 17.4477 2 18C2 18.5523 2.44772 19 3 19H21C21.5523 19 22 18.5523 22 18C22 17.4477 21.5523 17 21 17H3Z"
+              fill="#2F2F37"
+            />
+          </svg>
+        </button>
       </div>
     </header>
+
     <main>
       <section class="hero">
         <div class="container">
@@ -131,6 +143,7 @@
             <li class="team-item">
               <img
                 src="./images/img-1.jpg"
+                srcset="./images/img-1.jpg 1x, ./images/img-1@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -173,6 +186,7 @@
             <li class="team-item">
               <img
                 src="./images/img-2.jpg"
+                srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -215,6 +229,7 @@
             <li class="team-item">
               <img
                 src="./images/img-3.jpg"
+                srcset="./images/img-3.jpg 1x, ./images/img-3@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -257,6 +272,7 @@
             <li class="team-item">
               <img
                 src="./images/img-4.jpg"
+                srcset="./images/img-4.jpg 1x, ./images/img-4@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -308,12 +324,16 @@
               <div class="img-wrap">
                 <img
                   src="./images/portfolio-1.jpg"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   alt="Banking App"
                   width="360"
                   height="300"
                 />
                 <p class="overlay">
-                  14 Stylish and interactive design that helps to present the
+                  Stylish and interactive design that helps to present the
                   business and its services effectively.
                 </p>
               </div>
@@ -326,12 +346,16 @@
               <div class="img-wrap">
                 <img
                   src="./images/portfolio-2.jpg"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   alt="Cashless Payment"
                   width="360"
                   height="300"
                 />
                 <p class="overlay">
-                  14 Stylish and interactive design that helps to present the
+                  Stylish and interactive design that helps to present the
                   business and its services effectively.
                 </p>
               </div>
@@ -344,12 +368,16 @@
               <div class="img-wrap">
                 <img
                   src="./images/portfolio-3.jpg"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   alt="Meditation App"
                   width="360"
                   height="300"
                 />
                 <p class="overlay">
-                  14 Stylish and interactive design that helps to present the
+                  Stylish and interactive design that helps to present the
                   business and its services effectively.
                 </p>
               </div>
@@ -362,12 +390,16 @@
               <div class="img-wrap">
                 <img
                   src="./images/portfolio-4.jpg"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   alt="Taxi Service"
                   width="360"
                   height="300"
                 />
                 <p class="overlay">
-                  14 Stylish and interactive design that helps to present the
+                  Stylish and interactive design that helps to present the
                   business and its services effectively.
                 </p>
               </div>
@@ -380,12 +412,16 @@
               <div class="img-wrap">
                 <img
                   src="./images/portfolio-5.jpg"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
                 />
                 <p class="overlay">
-                  14 Stylish and interactive design that helps to present the
+                  Stylish and interactive design that helps to present the
                   business and its services effectively.
                 </p>
               </div>
@@ -398,12 +434,16 @@
               <div class="img-wrap">
                 <img
                   src="./images/portfolio-6.jpg"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   alt="Online Courses"
                   width="360"
                   height="300"
                 />
                 <p class="overlay">
-                  14 Stylish and interactive design that helps to present the
+                  Stylish and interactive design that helps to present the
                   business and its services effectively.
                 </p>
               </div>
@@ -416,6 +456,7 @@
         </div>
       </section>
     </main>
+
     <footer class="page-footer">
       <div class="container footer-container">
         <div class="footer-logo-wrap">
@@ -424,9 +465,10 @@
           >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
+            digital marketing &amp; growth solutions.
           </p>
         </div>
+
         <div class="footer-social-wrap">
           <p class="footer-social-title">Social media</p>
           <ul class="footer-social-list">
@@ -483,6 +525,76 @@
         </div>
       </div>
     </footer>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" type="button" data-menu-close>
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-nav-list">
+            <li>
+              <a href="./index.html" class="mobile-nav-link current">Studio</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contacts" class="mobile-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mobile-contacts-wrap">
+          <ul class="mobile-contacts-list">
+            <li>
+              <a href="tel:+110001111111" class="mobile-contacts-link accent"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="mobile-contacts-link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-social-list">
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link">
+                <svg class="mobile-social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link">
+                <svg class="mobile-social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link">
+                <svg class="mobile-social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link">
+                <svg class="mobile-social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="backdrop" data-modal>
       <div class="modal">
@@ -548,7 +660,7 @@
               name="user-comment"
               id="user-comment"
               class="modal-textarea"
-              placeholder="Text Input"
+              placeholder="Text input"
             ></textarea>
           </div>
 
@@ -578,5 +690,6 @@
     </div>
 
     <script src="./JS/modal.js"></script>
+    <script src="./JS/menu.js"></script>
   </body>
 </html>
